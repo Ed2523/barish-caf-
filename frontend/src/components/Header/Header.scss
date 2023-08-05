@@ -1,0 +1,31 @@
+.header {
+  width: 100%;
+  background-color: rgb(29, 27, 27);
+  color: white;
+  font-size: 7rem;
+}
+.logo {
+  font-family: "Dancing Script", cursive;
+}
+.nav-bar {
+  min-height: 6rem;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links {
+  width: 30%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links li {
+  display: flex;
+  align-items: center;
+}
+svg {
+  font-size: 1.7rem;
+  margin-right: 1rem;
+}
